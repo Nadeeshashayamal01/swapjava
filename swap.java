@@ -9,13 +9,13 @@ public class swap {
         System.out.println("Second number = " + snum);
 
         // Value of first is assigned to temporary
-        float temporary = fnum;
+        float temp = fnum;
 
         // Value of second is assigned to first
         fnum = snum;
 
         // Value of temporary (which contains the initial value of first) is assigned to second
-        snum = temporary;
+        snum = temp;
 
         System.out.println("--After the  swap--");
         System.out.println("First number = " + fnum);
