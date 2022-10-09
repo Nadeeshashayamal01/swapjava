@@ -2,11 +2,11 @@ public class swap {
 
     public static void main(String[] args) {
 
-        float fnum = 1.20f, snum = 2.45f;
+        float fnum = 2.56f, snum = 2.45f;
 
         System.out.println("--Before the swap--");
-        System.out.println("First number = " + fnum);
-        System.out.println("Second number = " + snum);
+        System.out.println("Your First number is= " + fnum);
+        System.out.println("Your Second number is= " + snum);
 
         // Value of first is assigned to temporary
         float temp = fnum;
@@ -18,7 +18,7 @@ public class swap {
         snum = temp;
 
         System.out.println("--After the  swap--");
-        System.out.println("First number = " + fnum);
-        System.out.println("Second number = " + snum);
+        System.out.println("Your First number is= " + fnum);
+        System.out.println("Your Second number is = " + snum);
     }
 }
