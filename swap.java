@@ -8,14 +8,10 @@ public class swap {
         System.out.println("Your First number is= " + fnum);
         System.out.println("Your Second number is= " + snum);
 
-        // Value of first is assigned to temporary
-        float temp = fnum;
+        fnum = fnum - snum;
+        snum = fnum + snum;
+        fnum = snum - fnum;
 
-        // Value of second is assigned to first
-        fnum = snum;
-
-        // Value of temporary (which contains the initial value of first) is assigned to second
-        snum = temp;
 
         System.out.println("--After the  swap--");
         System.out.println("Your First number is= " + fnum);
