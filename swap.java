@@ -2,7 +2,7 @@ public class swap {
 
     public static void main(String[] args) {
 
-        float fnum = 2.56f, snum = 2.45f;
+  int fnum = 1, snum = 2;
 
         System.out.println("--Before the swap--");
         System.out.println("Your First number is= " + fnum);
