@@ -2,19 +2,19 @@ public class swap {
 
     public static void main(String[] args) {
 
-  int fnum = 1, snum = 2;
+  int firstnumber = 1, secondnumber = 2;
 
         System.out.println("--Before the swap--");
-        System.out.println("Your First number is= " + fnum);
-        System.out.println("Your Second number is= " + snum);
+        System.out.println("Your First number is= " + firstnumber);
+        System.out.println("Your Second number is= " + secondnumber);
 
-        fnum = fnum - snum;
-        snum = fnum + snum;
-        fnum = snum - fnum;
+        firstnumber = firstnumber - firstnumber;
+        secondnumber = firstnumber + secondnumber;
+        firstnumber = secondnumber - firstnumber;
 
 
         System.out.println("--After the  swap--");
-        System.out.println("Your First number is= " + fnum);
-        System.out.println("Your Second number is = " + snum);
+        System.out.println("Your First number is= " + firstnumber);
+        System.out.println("Your Second number is = " + secondnumber);
     }
 }
