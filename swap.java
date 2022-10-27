@@ -13,6 +13,7 @@ public class swap {
         fnumber = snumber - fnumber;
 
 
+       //print numbers after swap
         System.out.println("--After the  swap--");
         System.out.println("Your First number is= " + firstnumber);
         System.out.println("Your Second number is = " + snumber);
